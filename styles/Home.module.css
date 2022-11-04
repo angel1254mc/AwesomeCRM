@@ -1,0 +1,21 @@
+.main_container {
+  display: flex;
+}
+.main_section {
+  padding-left: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+
+}
+.main_section_outer {
+  overflow-y: auto;
+  width: 100%;
+  max-height: 100vh;
+  width: calc(100vw - 250px);
+}
+.main_expand {
+  width: calc(100vw-250px);
+}
